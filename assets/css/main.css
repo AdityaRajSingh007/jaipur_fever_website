@@ -1,4 +1,11 @@
-/*Template Name: Fruitkha - Responsive Bootstrap4 Shop TemplateTemplate URI: Description: Bootstrap template for fruits or any other kind of shopAuthor: Imran HossainAuthor URI: https://imransdesign.com/Version: 1.0*/
+/*
+Template Name: Fruitkha - Responsive Bootstrap4 Shop Template
+Template URI: 
+Description: Bootstrap template for fruits or any other kind of shop
+Author: Imran Hossain
+Author URI: https://imransdesign.com/
+Version: 1.0
+*/
 /* -----------------------------------------------------------------------------
 
 # Base - Genral & Typography
@@ -156,7 +163,7 @@ p:last-child {
 # All Common Styles
 
 ----------------------------------------------------------------------------- */
-.loader {
+.loader_new {
   bottom: 0;
   height: 100%;
   left: 0;
@@ -165,11 +172,15 @@ p:last-child {
   top: 0;
   width: 100%;
   z-index: 1111;
-  background: #fff;
+  background: #de348c;
   overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 3s ease-in-out;
 }
 
-.loader-inner {
+.loader-inner_new {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -177,97 +188,19 @@ p:last-child {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  height: 50px;
-  width: 50px;
-}
-
-.circle {
-  width: 8vmax;
-  height: 8vmax;
-  border-right: 4px solid #000;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
-  -webkit-animation: spinRight 800ms linear infinite;
-  animation: spinRight 800ms linear infinite;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.circle:before {
-  content: '';
-  width: 6vmax;
-  height: 6vmax;
+.loader-inner_new img{
   display: block;
-  position: absolute;
-  top: calc(50% - 3vmax);
-  left: calc(50% - 3vmax);
-  border-left: 3px solid #F28123;
-  border-radius: 100%;
-  -webkit-animation: spinLeft 800ms linear infinite;
-  animation: spinLeft 800ms linear infinite;
-}
-
-.circle:after {
-  content: '';
-  width: 6vmax;
-  height: 6vmax;
-  display: block;
-  position: absolute;
-  top: calc(50% - 3vmax);
-  left: calc(50% - 3vmax);
-  border-left: 3px solid #F28123;
-  border-radius: 100%;
-  -webkit-animation: spinLeft 800ms linear infinite;
-  animation: spinLeft 800ms linear infinite;
-  width: 4vmax;
-  height: 4vmax;
-  top: calc(50% - 2vmax);
-  left: calc(50% - 2vmax);
-  border: 0;
-  border-right: 2px solid #000;
-  -webkit-animation: none;
-  animation: none;
-}
-
-@-webkit-keyframes spinLeft {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(720deg);
-    transform: rotate(720deg);
-  }
-}
-
-@keyframes spinLeft {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(720deg);
-    transform: rotate(720deg);
-  }
-}
-
-@-webkit-keyframes spinRight {
-  from {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-  to {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-}
-
-@keyframes spinRight {
-  from {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-  to {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+  margin: 0 auto; /* Center the image */
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
 }
 
 .mt-80 {
