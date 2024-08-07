@@ -177,7 +177,7 @@ p:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: opacity 3s ease-in-out;
+  transition: opacity 5s ease-in-out;
 }
 
 .loader-inner_new {

@@ -3,5 +3,5 @@ window.addEventListener('load', () => {
     preloader.style.opacity = '0';
     setTimeout(() => {
       preloader.style.display = 'none';
-    }, 2500); // Adjust delay as needed
+    }, 3000); // Adjust delay as needed
   });
