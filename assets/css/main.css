@@ -485,7 +485,6 @@ nav.main-menu {
   border-color: #de348c;
   border-radius: 25px; /* Adjust radius as needed */
   padding: 1px; /* Adjust padding as needed */
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -505,7 +504,6 @@ nav.main-menu ul li a {
   color: #de348c;
   font-weight: 700;
   display: block;
-  padding: 15px;
   border-radius: 25px; /* Adjust radius as needed */
   padding: 5px;
   margin: 5px;
@@ -532,6 +530,9 @@ nav.main-menu ul ul.sub-menu {
   visibility: hidden;
   -webkit-box-shadow: 0 0 20px #555555;
   box-shadow: 0 0 20px #555555;
+  border-radius: 25px; /* Adjust radius as needed */
+  padding: 5px;
+  margin: 5px;
 }
 
 nav.main-menu ul ul.sub-menu li {
@@ -636,6 +637,13 @@ nav.main-menu ul ul.sub-menu li {
 
 nav.main-menu ul ul.sub-menu li a {
   color: #de348c;
+  padding: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+nav.main-menu ul ul.sub-menu li a:hover {
+  color: white;
   padding: 8px;
   font-size: 13px;
   font-weight: 600;
