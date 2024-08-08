@@ -1,0 +1,33 @@
+/* mobile.css */
+@media (max-width: 954px) {
+
+    /* Your mobile-specific styles here */
+    .site-logo {
+        /* Mobile navbar styles */
+        max-width: 40vw;
+        max-height: 18vh;
+        margin-top: 7vh;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    .top-header-area {
+        height: 20vh;
+        background-image: url('/Custom_elements/Nav\ Bar\ Background\ Jaipur\ Fever\ Website.png');
+        /* Replace with your image path */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .main-menu-wrap {
+        height: 19vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mean-nav a {
+        background-color: #e05ba0;
+    }
+}
