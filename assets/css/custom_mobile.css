@@ -9,6 +9,7 @@
         margin-top: 7vh;
         overflow: hidden;
         z-index: 0;
+        margin-bottom: 2vh;
     }
 
     .top-header-area {
@@ -30,4 +31,10 @@
     .mean-nav a {
         background-color: #e05ba0;
     }
+/* hero area*/
+.hero-area {
+    height: 80vh;
+    margin-top: 20vh;
 }
+}
+
